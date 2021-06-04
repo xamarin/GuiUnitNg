@@ -68,7 +68,7 @@ jobs:
         displayName: Copy nuget package to artifacts
         inputs:
           sourceFolder: '$(Build.SourcesDirectory)'
-          contents: '**/$(BuildConfiguration)/**/?(*.nupkg)'
+          contents: 'GuiUnitNg/bin/Release/*.nupkg'
           targetFolder: '$(Build.ArtifactStagingDirectory)/nuget'
 
 #      - task: DotNetCoreCLI@2
