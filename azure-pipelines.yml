@@ -33,9 +33,10 @@ stages:
         displayName: Build GuiUnitNg
 
         pool:
-          vmImage: windows-2019
           ${{ if eq(variables['Build.SourceBranch'], 'refs/heads/main') }}:
             vmImage: VSEng-MicroBuildVS2019
+          ${{ if ne(variables['Build.SourceBranch'], 'refs/heads/main') }}:
+            vmImage: windows-2019
 
         steps:
           - task: UseDotNet@2
