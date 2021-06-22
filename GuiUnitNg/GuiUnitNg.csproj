@@ -17,6 +17,9 @@ Like the original GuiUnit, the goal of the runner is to provide integration with
 The verion of this package follows the version of the NUnit dependency it derives from</Summary>
     <Description>A more up-to-date version of https://github.com/mono/guiunit</Description>
     <GenerateNuspecDependsOn>$(GenerateNuspecDependsOn);ILRepack;_SwitchLibBinary</GenerateNuspecDependsOn>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <Copyright>© Microsoft Corporation. All rights reserved.</Copyright>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
