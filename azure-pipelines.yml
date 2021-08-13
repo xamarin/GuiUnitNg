@@ -33,10 +33,12 @@ stages:
         displayName: Build GuiUnitNg
 
         pool:
-          ${{ if eq(variables['Build.SourceBranch'], 'refs/heads/main') }}:
+          #${{ if eq(variables['Build.SourceBranch'], 'refs/heads/main') }}:
             name: VSEngSS-MicroBuild2019
-          ${{ if ne(variables['Build.SourceBranch'], 'refs/heads/main') }}:
-            vmImage: windows-2019
+          # PR builds on windows 2019 fail because the build relies on the MicroBuild nuget package
+          # and the windows-2019 pool is not equipped to authenticate with the nuget feed
+          #${{ if ne(variables['Build.SourceBranch'], 'refs/heads/main') }}:
+          #  vmImage: windows-2019
 
         steps:
           - task: UseDotNet@2
