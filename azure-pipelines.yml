@@ -34,7 +34,7 @@ stages:
 
         pool:
           ${{ if eq(variables['Build.SourceBranch'], 'refs/heads/main') }}:
-            name: VSEng-MicroBuildVS2019
+            name: VSEngSS-MicroBuild2019
           ${{ if ne(variables['Build.SourceBranch'], 'refs/heads/main') }}:
             vmImage: windows-2019
 
