@@ -123,7 +123,7 @@ stages:
               codebase: 'NewOrUpdate'
               tsaEnvironment: 'PROD'
               codeBaseName: 'Xamarin_GuiUnitNg'
-              notificationAlias: 'stepsha@microsoft.com'
+              notificationAlias: 'kirillo@microsoft.com'
               notifyAlwaysV2: false
               instanceUrlForTsaV2: 'DEVDIV'
               projectNameDEVDIV: 'DevDiv'

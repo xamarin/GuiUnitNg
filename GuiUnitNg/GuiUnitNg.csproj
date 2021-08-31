@@ -7,9 +7,9 @@
     <Prefer32Bit>false</Prefer32Bit>
     <PackageId>Xamarin.GuiUnitNg</PackageId>
     <PackageVersion>3.12.0</PackageVersion>
-    <Authors>garuma</Authors>
+    <Authors>Microsoft</Authors>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <PackageProjectUrl>https://github.com/garuma/GuiUnitNg</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/xamarin/GuiUnitNg</PackageProjectUrl>
     <Summary>This is a small project to compile both a runner and NUnit framework (both based on latest NUnit NuGet package) into a single .exe assembly that can be linked into a test project and used directly to run it.
 
 Like the original GuiUnit, the goal of the runner is to provide integration with a GUI runloop (Gtk, Cocoa, Xwt, ...) so that unit tests that depend on it (for proper async/await operations for instance) can be run correctly.
