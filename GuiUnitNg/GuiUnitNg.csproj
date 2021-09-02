@@ -5,6 +5,7 @@
     <AssemblyName>GuiUnitNg</AssemblyName>
     <TargetFramework>net45</TargetFramework>
     <Prefer32Bit>false</Prefer32Bit>
+    <DebugType>embedded</DebugType>
     <PackageId>Xamarin.GuiUnitNg</PackageId>
     <PackageVersion>3.12.0</PackageVersion>
     <Authors>Microsoft</Authors>
