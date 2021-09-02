@@ -16,3 +16,9 @@ GuiUnitNg\bin\Release\Xamarin.GuiUnitNg.3.12.0.nupkg
 
 Upload to:
 https://www.nuget.org/packages/Xamarin.GuiUnitNg
+
+CI build:
+DevDiv/_build?definitionId=14651
+
+NuGet publishing Release:
+DevDiv/_releaseDefinition?definitionId=3079&_a=definition-pipeline
