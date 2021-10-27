@@ -34,7 +34,7 @@ stages:
 
         pool:
           #${{ if eq(variables['Build.SourceBranch'], 'refs/heads/main') }}:
-            name: VSEngSS-MicroBuild2019
+            name: VSEngSS-MicroBuild2022-1ES
           # PR builds on windows 2019 fail because the build relies on the MicroBuild nuget package
           # and the windows-2019 pool is not equipped to authenticate with the nuget feed
           #${{ if ne(variables['Build.SourceBranch'], 'refs/heads/main') }}:
